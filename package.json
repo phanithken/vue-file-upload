@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "firebase": "^5.8.6",
+    "recordrtc": "^5.5.4",
     "rxjs": "^6.4.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",

@@ -17,3 +17,8 @@ export const uploadImage = (image) => from(firebase.storage().ref(randString()).
                                         .pipe(
                                             catchError((error) => console.log(error))
                                         )
+
+export const uploadVideo = (video) => from(firebase.storage().ref(randString()).put(video))
+                                            .pipe(
+                                                catchError((error) => console.log(error))
+                                            )
